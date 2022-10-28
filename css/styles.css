@@ -60,6 +60,11 @@ img {
     height: auto;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Шапка */
 
 .header {
@@ -197,11 +202,6 @@ img {
 
 /* .feature */
 
-.feature-box {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .feature {
     display: flex;
     justify-content: space-between;
@@ -265,9 +265,6 @@ img {
 .team {
     background-color: #F5F4FA;
 
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     text-align: center;
 }
 
@@ -321,11 +318,6 @@ img {
 }
 
 /* portfolio */
-
-.portfolio-nav{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .portfolio-nav .nav-list {
     display: flex;
