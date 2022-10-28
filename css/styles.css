@@ -63,7 +63,9 @@ img {
 /* Шапка */
 
 .header {
-    background-color:#FFFFFF;
+    background-color:var(--secondary-color);
+    border:1px solid var(--secondary-color);
+    border-bottom:1px solid #ECECEC;
 }
 
 /* Logo */
@@ -90,11 +92,6 @@ img {
     display:flex;
 }
 
-.nav-site .nav-list {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
 .nav-site .nav-list:not(:last-child) {
     margin-right: 50px;
 }
@@ -112,6 +109,7 @@ img {
 }
 
 .nav-list>.link {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -159,7 +157,6 @@ img {
     padding-bottom: 200px;
     
     text-align: center;
-    outline: 2px solid red;
 }
 
 .hero>.hero-title {
@@ -433,9 +430,10 @@ img {
     margin-bottom: 9px;
 }
 
-.address .link:last-child {
-    margin-bottom: 0px;
+.address .link-address {
+    margin-bottom: 0;
 }
+
 
 .address .map {
     color: var(--secondary-color);
